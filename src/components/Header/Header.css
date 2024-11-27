@@ -1,0 +1,44 @@
+.header {
+  background-color: #0052cc;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 8px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 6px;
+  }
+
+  .logo {
+    height: 25px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+}

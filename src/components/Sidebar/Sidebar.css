@@ -1,0 +1,39 @@
+.sidebar {
+  background-color: #eaeaea;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar-button {
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    padding: 15px;
+  }
+
+  .sidebar-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    padding: 10px;
+  }
+
+  .sidebar-button {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
